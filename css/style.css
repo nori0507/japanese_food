@@ -1,0 +1,38 @@
+header{
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    font-size: 30px
+}
+
+body{
+    background-color: lightcyan;
+    text-align:center;
+}
+
+p{
+    font-size: 20px;
+}
+
+ul{
+    font-size:18px;
+    list-style-type: none;
+
+}
+
+ol{
+    font-size:18px;
+    list-style-position: inside;
+}
+
+h3{
+    font-size: 23px;
+}
+
+h4{
+    font-size: 22px;
+}
+
+* {
+    font-family: Papyrus;
+}
+
