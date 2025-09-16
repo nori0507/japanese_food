@@ -36,3 +36,46 @@ h4{
     font-family: Papyrus;
 }
 
+
+.purple{
+    color: purple;
+}
+
+.magenta{
+    color: magenta;
+}
+
+.navy{
+    color: navy;
+}
+
+.rubine_red{
+    color: #D10056;
+}
+
+#footer_text_index{
+    font-size: 25px;
+    color: gray;
+    letter-spacing: 0.003em;
+
+}
+
+#footer_text_page2{
+    font-size: 25px;
+    color: rgb(87, 22, 100);
+    letter-spacing: 0.003em;
+
+}
+
+#header_title_index{
+    font-size: 60px;
+    letter-spacing: 0.05em;
+
+}
+
+#header_title_page2{
+    font-size: 60px;
+    color: brown;
+    letter-spacing: 0.05em;
+
+}
