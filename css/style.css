@@ -1,65 +1,77 @@
+/*customizing the header*/
 header{
-    background-color: lightgoldenrodyellow;
-    text-align: center;
-    font-size: 30px
+    background-color: lightgoldenrodyellow; /*setting background color*/
+    text-align: center; /*customizing where the text shoule be displayed*/
+    font-size: 30px /*changing the font size*/
 }
 
+/*changing the layout of body*/
 body{
     background-color: lightcyan;
     text-align:center;
 }
 
+/*modifying the font size for paragraph*/
 p{
     font-size: 20px;
 }
 
+/*modifying the visual within unordered list*/
 ul{
     font-size:18px;
-    list-style-type: none;
-
+    list-style-type: none; /*getting rid of bullets*/
 }
 
+/*modifying the visual within ordered list*/
 ol{
     font-size:18px;
-    list-style-position: inside;
+    list-style-position: inside; /*the bullet will sit insidethe text box(coming to the center with text)*/
 }
 
+/*modifying the font size for h3*/
 h3{
     font-size: 23px;
 }
 
+/*modifying the font size for h4*/
 h4{
     font-size: 22px;
 }
 
+/*changing font for the whole webpage*/
 * {
     font-family: Papyrus;
 }
 
-
+/*assiging color purple*/
 .purple{
     color: purple;
 }
 
+/*assiging color magenta*/
 .magenta{
     color: magenta;
 }
 
+/*assiging color navy*/
 .navy{
     color: navy;
 }
 
+/*assiging color D10056*/
 .rubine_red{
     color: #D10056;
 }
 
+/*modifying footer text layout for index.html*/
 #footer_text_index{
     font-size: 25px;
     color: gray;
-    letter-spacing: 0.003em;
+    letter-spacing: 0.003em; /*modifying the space between the letters*/
 
 }
 
+/*modifying footer text layout for page2.html*/
 #footer_text_page2{
     font-size: 25px;
     color: rgb(87, 22, 100);
@@ -67,12 +79,14 @@ h4{
 
 }
 
+/*modifying header text layout for index.html*/
 #header_title_index{
     font-size: 60px;
     letter-spacing: 0.05em;
 
 }
 
+/*modifying header text layout for page2.html*/
 #header_title_page2{
     font-size: 60px;
     color: brown;
@@ -80,6 +94,7 @@ h4{
 
 }
 
+/*using flexbox to align the cliccks horizontally*/
 #clicks{
     display: flex;
     justify-content: space-around;
@@ -88,6 +103,7 @@ h4{
     gap: 20px;
 }
 
+/*creating separated boxes for each clicks*/
 .box{
     background-color: white;
     padding: 20px;
