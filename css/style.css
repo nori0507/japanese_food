@@ -2,7 +2,6 @@
 header{
     background-color: lightgoldenrodyellow; /*setting background color*/
     text-align: center; /*customizing where the text shoule be displayed*/
-    font-size: 30px /*changing the font size*/
 }
 
 /*changing the layout of body*/
@@ -109,3 +108,4 @@ h4{
     padding: 20px;
     margin: 10px;
 }
+
