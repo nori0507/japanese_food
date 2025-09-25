@@ -1,4 +1,10 @@
 /*customizing the header*/
+
+/*According to the website that the professor provided in the assignment, 
+most of the mobile devices had the width around 400px, so i set the limit as 450px*/
+
+
+
 header{
     background-color: lightgoldenrodyellow; /*setting background color*/
     text-align: center; /*customizing where the text shoule be displayed*/
@@ -12,20 +18,28 @@ body{
 
 /*modifying the font size for paragraph*/
 p{
-    font-size: 20px;
+    font-size: 24px;
 }
 
-/*modifying the visual within unordered list*/
+
+/*modifying the appearance of ordered lists*/
+ol {
+  font-size: 24px;
+  list-style-position: inside; /*putting the numbers for thelist inside the container so that it will move along with the text*/
+  text-align: center; /* align items in the list to the center, so it does not put the list itself on the center of the page*/
+  margin: 0 auto; /* centers the whole list block, by doing this, you can put the list on the center of the webpage */
+  padding: 0; /*getting rid of the spaces inbetween text and text, text and boarder. without this, the list was not on the center.*/
+}
+
+/*modifying the appearance of unordered list*/
 ul{
-    font-size:18px;
-    list-style-type: none; /*getting rid of bullets*/
+  font-size: 24px;
+  list-style-type: none; /*getting rid of the bullet points*/
+  text-align: center; 
+  margin: 0 auto; 
+  padding: 0;
 }
 
-/*modifying the visual within ordered list*/
-ol{
-    font-size:18px;
-    list-style-position: inside; /*the bullet will sit insidethe text box(coming to the center with text)*/
-}
 
 /*modifying the font size for h3*/
 h3{
@@ -109,3 +123,58 @@ h4{
     margin: 10px;
 }
 
+/*According to the website that the professor provided in the assignment, most of the mobile devices had the width around 400px, 
+so i thought setting the limit as 450px would work perfectly. However, 450px did not work because I could not make my window 
+for the webpage smaller than 450px with my PC so I used 600px instead*/
+
+/*adjusting the header text size of index.html*/
+@media (max-width: 600px) {
+  #header_title_index{
+    font-size: 28px;
+  }
+}
+
+/*adjusting the header text size of page2.html*/
+@media (max-width: 600px) {
+  #header_title_page2{
+    font-size: 28px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  #footer_text_index{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  #footer_text_page2{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  p{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  h2{
+    font-size: 20px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  ul{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  ol{
+    font-size: 18px;
+  }
+}
