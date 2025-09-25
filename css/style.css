@@ -63,7 +63,7 @@ h4{
 
 /*assiging color magenta*/
 .magenta{
-    color: magenta;
+    color: #006400;
 }
 
 /*assiging color navy*/
@@ -123,6 +123,8 @@ h4{
     margin: 10px;
 }
 
+
+
 /*According to the website that the professor provided in the assignment, most of the mobile devices had the width around 400px, 
 so i thought setting the limit as 450px would work perfectly. However, 450px did not work because I could not make my window 
 for the webpage smaller than 450px with my PC so I used 600px instead*/
@@ -178,3 +180,10 @@ for the webpage smaller than 450px with my PC so I used 600px instead*/
     font-size: 18px;
   }
 }
+
+@media (max-width: 600px) {
+         #clicks, .box{
+          flex-direction: column;
+          align-items: center;
+        }
+    }
