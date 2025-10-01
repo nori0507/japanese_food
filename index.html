@@ -16,69 +16,74 @@
         <link rel="stylesheet" href="./css/style.css" />
     </head>
     <body>
-        <header>
-            <!--giving the meaningful header so that readers can recognize what this page is about-->
-            <!--declaring the id so that i can customize the letters-->
-            <h1 id = 'header_title_index'>History of Japanese Cuisine</h1>
-            <p>This is a page about a history of Japanese food and cuisine</p>
-        </header>
-        <main>
-            <article>
-                <section>
-                    <!--putting some famous and popular Japanese cuisine on the screen-->
-                    <h2>What are some popular and famous Japanese cusine?</h2>
-                    <p>There are dishes such as:</p>
-                    <!--creating unorderd list for food-->
-                    <ul>
-                        <!--declaring classes to change the font colors-->
-                        <li class = 'purple'>Ramen</li>
-                        <li class = 'magenta'>Miso soup</li>
-                        <li class = 'purple'>Sushi</li>
-                        <li class = 'magenta'>Takoyaki</li>
-                        <li class = 'purple'>Tonkatsu</li>
-                    </ul>
-                    <!--displaying picture to lead the readers' attention-->
-                    <h2>Pictures of ramen and takoyaki</h2>
-                    <img src = './img/Ramen.jpg' alt = "Ramen, Japanese noodle served in soup" width = "20%">
-                    <img src = './img/sushi.jpg' alt = "Sushi, vinegared rice combined with various kinds of fish" width = "20%">
-                </section>
-                
-                <!--inserting a URL of Youtube video so that readers can go over the brief summary of Japanese Ccuisine history-->
-                <h2>Japanese cuisine has been shaped and evolved over a long period of time</h2>
-                <P>Chick <a href = 'https://youtu.be/qWaXxzj_Bp4?si=kt0_PSJ1KxXZV3x4'>this</a> 
-                to watch a video of a brief history of Japanese cuisine.</P>
+        <div class = "container mt-4">
+            <header class = "text-center mb-4">
+                <!--giving the meaningful header so that readers can recognize what this page is about-->
+                <!--declaring the id so that i can customize the letters-->
+                <h1 id = 'header_title_index'>History of Japanese Cuisine</h1>
+                <p >This is a page about a history of Japanese food and cuisine</p>
+            </header>
+            <main>
+                <article>
+                    <section>
+                        <!--putting some famous and popular Japanese cuisine on the screen-->
+                        <h2>What are some popular and famous Japanese cusine?</h2>
+                        <p>There are dishes such as:</p>
+                        <!--creating unorderd list for food-->
+                        <ul>
+                            <!--declaring classes to change the font colors-->
+                            <li class = 'purple'>Ramen</li>
+                            <li class = 'magenta'>Miso soup</li>
+                            <li class = 'purple'>Sushi</li>
+                            <li class = 'magenta'>Takoyaki</li>
+                            <li class = 'purple'>Tonkatsu</li>
+                        </ul>
+                        <!--displaying picture to lead the readers' attention-->
+                        <h2>Pictures of ramen and takoyaki</h2>
+                        <img src = './img/Ramen.jpg' alt = "Ramen, Japanese noodle served in soup" width = "20%">
+                        <img src = './img/sushi.jpg' alt = "Sushi, vinegared rice combined with various kinds of fish" width = "20%">
+                    </section>
+                    
+                    <!--inserting a URL of Youtube video so that readers can go over the brief summary of Japanese Ccuisine history-->
+                    <h2>Japanese cuisine has been shaped and evolved over a long period of time</h2>
+                    <P class = "text-center">
+                        <a href = 'https://youtu.be/qWaXxzj_Bp4?si=kt0_PSJ1KxXZV3x4' class = "btn btn-primary mt-3">Watch a video of a brief history of Japanese cuisine.</a> 
+                    </P>
 
-                <section>
-                    <!--listing my favorite Japanese cuisine-->
-                    <h2>My favorites</h2>
-                    <p>These are my favorites! If you never had them, you should try!</p>
-                    <ol>
-                        <!--declaring classes to change the font colors-->
-                        <li class = 'purple'>Sushi</li>
-                        <li class = 'magenta'>Udon</li>
-                        <li class = 'purple'>Onigiri</li>
-                    </ol>
-                    <!--putting the code segment into div so that i can declare id for the specific code segment-->
-                    <div id = "clicks">
-                    <!--inserting articles for the history of some specific Japanese cuisine, so that readers can read them by clicking the 'here' button-->
-                    <P class = 'box'>Click <a href = 'https://www.eat-japan.com/sushi-perfect/sushi-knwoledge/sushi-history/'>here</a> 
-                    to learn about the history of shusi.</P>
-                    <P class = 'box'>Click <a href = 'https://www.marukome.co.jp/global/en/foodculture/aboutmiso/originandhistoryofmiso/'>here</a> 
-                    to learn about the history of miso soup.</P>
-                    <P class = 'box'>Click <a href = 'https://www.bokksu.com/blogs/news/octopus-in-a-ball-the-story-of-takoyakis-rise-in-japanese-cuisine?srsltid=AfmBOoptgvyZNI-lGT4yFkC7Uqb8M5wyGQD_CoD_YYgAh9QnRQiEz_EL'>here</a> 
-                    to learn about the history of takoyaki.</P>
-                    </div>
-                </section>
-            </article>
-            
-        </main>
-        <!--inserting the link for my second page at the bottom-->
-        <footer>
-            <!--dclaring id so that i can customize the text-->
-            <h3 id = 'footer_text_index'>You can also learn about Japanese regional cuisines here.</h3>
-            <a href = './page2.html'>Japanese Regional Cuisine</a>
-        </footer>
-        
+                    <section>
+                        <!--listing my favorite Japanese cuisine-->
+                        <h2>My favorites</h2>
+                        <p>These are my favorites! If you never had them, you should try!</p>
+                        <ol>
+                            <!--declaring classes to change the font colors-->
+                            <li class = 'purple'>Sushi</li>
+                            <li class = 'magenta'>Udon</li>
+                            <li class = 'purple'>Onigiri</li>
+                        </ol>
+                        <!--putting the code segment into div so that i can declare id for the specific code segment-->
+                        <div class = 'row'>
+                        <!--inserting articles for the history of some specific Japanese cuisine, so that readers can read them by clicking the 'here' button-->
+                        <P class = 'col-md-4'><a href = 'https://www.eat-japan.com/sushi-perfect/sushi-knwoledge/sushi-history/' class ="btn btn-primary mt-3">
+                            Learn about the history of shusi</a> 
+                        </P>
+                        <P class = 'col-md-4'><a href = 'https://www.marukome.co.jp/global/en/foodculture/aboutmiso/originandhistoryofmiso/' class ="btn btn-primary mt-3">
+                            Learn about the history of miso soup</a> 
+                        </P>
+                        <P class = 'col-md-4'><a href = 'https://www.bokksu.com/blogs/news/octopus-in-a-ball-the-story-of-takoyakis-rise-in-japanese-cuisine?srsltid=AfmBOoptgvyZNI-lGT4yFkC7Uqb8M5wyGQD_CoD_YYgAh9QnRQiEz_EL' class ="btn btn-primary mt-3">
+                            Learn about the history of takoyaki</a> 
+                        </P>
+                        </div>
+                    </section>
+                </article>
+                
+            </main>
+            <!--inserting the link for my second page at the bottom-->
+            <footer class = "mt-5">
+                <!--dclaring id so that i can customize the text-->
+                <h3 id = 'footer_text_index'>You can also learn about Japanese regional cuisines here.</h3>
+                <a href = './page2.html' class="btn btn-success mt-4">Japanese Regional Cuisine</a>
+            </footer>
+        </div>
     </body>
     
 </html>

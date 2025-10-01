@@ -18,56 +18,58 @@
 
     </head>
     <body>
-        <header>
-            <!--explaining what the readers can expect from this webpage first-->
-            <!--declaring id so that i can visually custome the text-->
-            <h1 id="header_title_page2">Japanese Regional Cuisine</h1>
-            <p>This is a page about Japanese regional cuisine.</p>
-            <p>Regional cuisine are very unique and may different from Japanese cuisine that you would expect.</p>
-        </header>
-        <main>
-            <article>
-                <section>
-                    <!--Listing some factors that can determin the features of regional cuisine-->
-                    <h2>What determines regional cuisines?</h2>
-                    <p>There are some components such as...</p>
-                    <ul>
-                        <!--declare classes to change the font colors-->
-                        <li class = "navy">Weather</li>
-                        <li class = 'rubine_red'>Trade</li>
-                        <li class = 'navy'>Food Availability</li>
-                        <li class = 'rubine_red'>Cooking Traditions</li>
-                </ul>
-                </section>
-                
-                <section>
-                    <!--Listing some examples of Japanese cuisine with images-->
-                    <h3>Famous Japanese regional cuisine</h3>
-                    <p>These are famous, popular, and delicious!</p>
-                    <ol>
-                        <!--declare classes to change the font colors-->
-                        <!--imagesalso hav to be a part of the list - other wise the screen reader will be confused asthe lighthouse mentioned-->
-                        <li class = "navy">Jingisukan - grilled lamb dish(Hokkaido).</li>
-                        <li><img src = './img/jingisukan.jpg' alt = "Jingisukan, grilled lamb dish from Hokkaido" width = "20%"></li>
-                        <li class = 'rubine_red'>Unaju - grilled eel served over rice in a lacquered box(Shizuoka).</li>
-                        <li><img src = './img/unaju.jpg' alt = "Unaju, grilled eel served over rice in a lacquered box from Shizuoka" width = "20%"></li>
-                        <li class = "navy">Goya Champuru - stir-fry with bitter melon, tofu, pork, and egg(Okinawa).</li>
-                        <li><img src = './img/bitterMelon.webp' alt = "Goya Champuru, stir-fry with bitter melon, tofu, pork, and egg from Okinawa" width = "20%"></li>
-                    </ol>
-                <!--introducin an article with a 'here' botton so that the readers can learn more about regional cuisine-->
-                <P>Click <a href = 'https://stickymangorice.com/2023/03/29/japanese-dishes-by-region/'>here</a> 
-                to learn about Japanese regional cuisine with cute illustration!</P>
-            </article>
-        </main>
-        
-        <!--inserting a link so that readers can go back to the main(first) page-->
-        <footer>
-            <!--declare id so that I can customise the letters-->
-            <!--I set the h4 because it is not important in the hierarchy compared to the ones in the main sections-->
-            <h4 id = 'footer_text_page2'>You can go back to the original website from here!</h3>
-            <a href = './index.html'>Going back to Home</a>
-        </footer>
-        
+        <div class = "container mt-4">
+            <header class = "text-center mb-4">
+                <!--explaining what the readers can expect from this webpage first-->
+                <!--declaring id so that i can visually custome the text-->
+                <h1 id="header_title_page2">Japanese Regional Cuisine</h1>
+                <p>This is a page about Japanese regional cuisine.</p>
+                <p>Regional cuisine are very unique and may different from Japanese cuisine that you would expect.</p>
+            </header>
+            <main>
+                <article>
+                    <section>
+                        <!--Listing some factors that can determin the features of regional cuisine-->
+                        <h2>What determines regional cuisines?</h2>
+                        <p>There are some components such as...</p>
+                        <ul>
+                            <!--declare classes to change the font colors-->
+                            <li class = "navy">Weather</li>
+                            <li class = 'rubine_red'>Trade</li>
+                            <li class = 'navy'>Food Availability</li>
+                            <li class = 'rubine_red'>Cooking Traditions</li>
+                    </ul>
+                    </section>
+                    
+                    <section>
+                        <!--Listing some examples of Japanese cuisine with images-->
+                        <h3>Famous Japanese regional cuisine</h3>
+                        <p>These are famous, popular, and delicious!</p>
+                        <ol>
+                            <!--declare classes to change the font colors-->
+                            <!--imagesalso hav to be a part of the list - other wise the screen reader will be confused asthe lighthouse mentioned-->
+                            <li class = "navy">Jingisukan - grilled lamb dish(Hokkaido).</li>
+                            <li><img src = './img/jingisukan.jpg' alt = "Jingisukan, grilled lamb dish from Hokkaido" width = "20%"></li>
+                            <li class = 'rubine_red'>Unaju - grilled eel served over rice in a lacquered box(Shizuoka).</li>
+                            <li><img src = './img/unaju.jpg' alt = "Unaju, grilled eel served over rice in a lacquered box from Shizuoka" width = "20%"></li>
+                            <li class = "navy">Goya Champuru - stir-fry with bitter melon, tofu, pork, and egg(Okinawa).</li>
+                            <li><img src = './img/bitterMelon.webp' alt = "Goya Champuru, stir-fry with bitter melon, tofu, pork, and egg from Okinawa" width = "20%"></li>
+                        </ol>
+                    <!--introducin an article with a 'here' botton so that the readers can learn more about regional cuisine-->
+                    <P class = "text-center">
+                        <a href = 'https://stickymangorice.com/2023/03/29/japanese-dishes-by-region/' class = "btn btn-primary mt-3">Learn about Japanese regional cuisine with cute illustration!</a> 
+                    </P>
+                </article>
+            </main>
+            
+            <!--inserting a link so that readers can go back to the main(first) page-->
+            <footer class = "mt-5">
+                <!--declare id so that I can customise the letters-->
+                <!--I set the h4 because it is not important in the hierarchy compared to the ones in the main sections-->
+                <h4 id = 'footer_text_page2'>You can go back to the original website from here!</h3>
+                <a href = './index.html' class = "btn btn-success mt-3">Going back to Home</a>
+            </footer>
+        </div>
     </body>
 </html>
 
