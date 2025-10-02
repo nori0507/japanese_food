@@ -16,6 +16,7 @@ header{
 }
 */
 
+/* customizing the header backgtound color*/
 .my-custom-header{
   background-color: lightgoldenrodyellow;
 }
@@ -28,6 +29,7 @@ body{
 }
 */
 
+/* customizing the body backgtound color*/
 .my-custom-body{
   background-color: lightcyan;
 }
@@ -87,14 +89,14 @@ h4{
     color: #D10056;
 }
 
-/*modifying footer text layout for index.html*/
+/*customizing footer text layout for index.html*/
 .footer_text_index{
-    font-size: 25px;
+    font-size: 22px;
     color: gray;
     letter-spacing: 0.003em; /*modifying the space between the letters*/
 }
 
-/*modifying footer text layout for page2.html*/
+/*cutomizing footer text layout for page2.html*/
 .footer_text_page2{
     font-size: 25px;
     color: rgb(87, 22, 100);
@@ -114,11 +116,13 @@ h4{
     letter-spacing: 0.05em;
 }
 
+/*customizing the background and border color for success button*/
 .custom-success{
   background-color:purple;
   border-color:gray;
 }
 
+/*customizing the font size for primary button*/
 .custom-primery{
   font-size: 20px;
 }
@@ -161,24 +165,33 @@ for the webpage smaller than 450px with my PC so I used 600px instead*/
     font-size: 28px;
   }
 
-  /*adjusting the footer text size of index.html*/
-  #footer_text_index{
+  /*adjusting the footer text size and margine above and below of it within index.html*/
+  .footer_text_index{
     font-size: 16px;
-  }
-
-  /*adjusting the footer text size of page2.html*/
-  #footer_text_page2{
-    font-size: 18px;
+    margin-top: 10px;   /* space above */
+    margin-bottom: 10px; /* space below */
   }
 
   /*adjusting the paragraph text size*/
   p{
-    font-size: 18px;
+    font-size: 16px;
   }
 
   /*adjusting the h2 text size*/
   h2{
     font-size: 20px;
+  }
+
+  /*adjusting the h3 text size and margin above and below of it */
+  h3{
+    font-size: 20px;
+    margin-top: 20px;   /* space above */
+    margin-bottom: 20px; /* space below */
+  }
+
+  /*adjusting the h4 text size*/
+  h4{
+     font-size: 16px;
   }
 
   /*adjusting the unordered list text size */
@@ -194,8 +207,22 @@ for the webpage smaller than 450px with my PC so I used 600px instead*/
   /*adjusting the flexbox format according to the size of the screen*/
   /*when the window's width is below 600px, all boxes stack vertically for better layout*/
   /*I had to adjust both clicks(items) and .box(bacjground box) for it to work*/
+  
+  /*
   #clicks, .box{
     flex-direction: column;
     align-items: center;
   }
+  */
+
+  /*adjusting font-size for primary button*/
+  .custom-primery{
+    font-size: 16px;
+  }
+
+  /*adjusting font-size for success button*/
+  .custom-success{
+    font-size: 14px;
+  }
+
 }

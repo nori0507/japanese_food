@@ -15,9 +15,12 @@
         <!--connecting the this html file with style.css file-->
         <link rel="stylesheet" href="./css/style.css" />
     </head>
+    <!--everything in the body part will be center aligned-->
     <body class = "text-center my-custom-body">
+        <!--Creating container, and specifying margine-top -->
         <div class = "container mt-4">
-            <header class = "text-center mb-4 my-custom-header">
+            <!--Specifying margine below-->
+            <header class = "mb-4 my-custom-header">
                 <!--giving the meaningful header so that readers can recognize what this page is about-->
                 <!--declaring the id so that i can customize the letters-->
                 <h1 id = 'header_title_index'>History of Japanese Cuisine</h1>
@@ -47,6 +50,7 @@
                     <!--inserting a URL of Youtube video so that readers can go over the brief summary of Japanese Ccuisine history-->
                     <h2>Japanese cuisine has been shaped and evolved over a long period of time</h2>
                     <P>
+                        <!--putting the primary button-->
                         <a href = 'https://youtu.be/qWaXxzj_Bp4?si=kt0_PSJ1KxXZV3x4' class = "btn btn-primary mt-3 custom-primery">Watch a video of a brief history of Japanese cuisine.</a> 
                     </P>
 
@@ -61,8 +65,10 @@
                             <li class = 'purple'>Onigiri</li>
                         </ol>
                         <!--putting the code segment into div so that i can declare id for the specific code segment-->
+                        <!--align cols hirizontally-->
                         <div class = 'row'>
                         <!--inserting articles for the history of some specific Japanese cuisine, so that readers can read them by clicking the 'here' button-->
+                        <!--putting the primary button-->
                         <P class = 'col-md-4'><a href = 'https://www.eat-japan.com/sushi-perfect/sushi-knwoledge/sushi-history/' class ="btn btn-primary mt-3 custom-primery">
                             Learn about the history of shusi</a> 
                         </P>
@@ -80,7 +86,8 @@
             <!--inserting the link for my second page at the bottom-->
             <footer class = "mt-5 footer_text_index">
                 <!--dclaring id so that i can customize the text-->
-                <h3 id = 'footer_text_index'>You can also learn about Japanese regional cuisines here.</h3>
+                <h3 class = "footer_text_index">You can also learn about Japanese regional cuisines here.</h3>
+                <!--putting the success button-->
                 <a href = './page2.html' class="btn btn-success mt-4 custom-success">Japanese Regional Cuisine</a>
             </footer>
         </div>
