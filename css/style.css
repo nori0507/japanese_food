@@ -4,16 +4,32 @@
 most of the mobile devices had the width around 400px, so i set the limit as 450px*/
 
 
+/*changing font for the whole webpage*/
+* {
+    font-family: Papyrus;
+}
 
+/*
 header{
-    background-color: lightgoldenrodyellow; /*setting background color*/
-    text-align: center; /*customizing where the text shoule be displayed*/
+    background-color: lightgoldenrodyellow; - setting background color
+    text-align: center; - aligning the text center
+}
+*/
+
+.my-custom-header{
+  background-color: lightgoldenrodyellow;
 }
 
 /*changing the layout of body*/
+/*
 body{
     background-color: lightcyan;
     text-align:center;
+}
+*/
+
+.my-custom-body{
+  background-color: lightcyan;
 }
 
 /*modifying the font size for paragraph*/
@@ -51,11 +67,6 @@ h4{
     font-size: 22px;
 }
 
-/*changing font for the whole webpage*/
-* {
-    font-family: Papyrus;
-}
-
 /*assiging color purple*/
 .purple{
     color: purple;
@@ -77,26 +88,23 @@ h4{
 }
 
 /*modifying footer text layout for index.html*/
-#footer_text_index{
+.footer_text_index{
     font-size: 25px;
     color: gray;
     letter-spacing: 0.003em; /*modifying the space between the letters*/
-
 }
 
 /*modifying footer text layout for page2.html*/
-#footer_text_page2{
+.footer_text_page2{
     font-size: 25px;
     color: rgb(87, 22, 100);
     letter-spacing: 0.003em;
-
 }
 
 /*modifying header text layout for index.html*/
 #header_title_index{
     font-size: 60px;
     letter-spacing: 0.05em;
-
 }
 
 /*modifying header text layout for page2.html*/
@@ -104,10 +112,19 @@ h4{
     font-size: 60px;
     color: brown;
     letter-spacing: 0.05em;
+}
 
+.custom-success{
+  background-color:purple;
+  border-color:gray;
+}
+
+.custom-primery{
+  font-size: 20px;
 }
 
 /*using flexbox to align the cliccks horizontally*/
+/*
 #clicks{
     display: flex;
     justify-content: space-around;
@@ -115,13 +132,16 @@ h4{
     margin: 0;
     gap: 20px;
 }
+*/
 
 /*creating separated boxes for each clicks*/
+/*
 .box{
     background-color: white;
     padding: 20px;
     margin: 10px;
 }
+*/
 
 
 
@@ -135,63 +155,47 @@ for the webpage smaller than 450px with my PC so I used 600px instead*/
   #header_title_index{
     font-size: 28px;
   }
-}
 
-/*adjusting the header text size of page2.html*/
-@media (max-width: 600px) {
+  /*adjusting the header text size of page2.html*/
   #header_title_page2{
     font-size: 28px;
   }
-}
 
-/*adjusting the footer text size of index.html*/
-@media (max-width: 600px) {
+  /*adjusting the footer text size of index.html*/
   #footer_text_index{
     font-size: 16px;
   }
-}
 
-/*adjusting the footer text size of page2.html*/
-@media (max-width: 600px) {
+  /*adjusting the footer text size of page2.html*/
   #footer_text_page2{
     font-size: 18px;
   }
-}
 
-/*adjusting the paragraph text size*/
-@media (max-width: 600px) {
+  /*adjusting the paragraph text size*/
   p{
     font-size: 18px;
   }
-}
 
-/*adjusting the h2 text size*/
-@media (max-width: 600px) {
+  /*adjusting the h2 text size*/
   h2{
     font-size: 20px;
   }
-}
 
-/*adjusting the unordered list text size */
-@media (max-width: 600px) {
+  /*adjusting the unordered list text size */
   ul{
     font-size: 18px;
   }
-}
 
-/*adjusting the ordered list text size*/
-@media (max-width: 600px) {
+  /*adjusting the ordered list text size*/
   ol{
     font-size: 18px;
   }
-}
 
-/*adjusting the flexbox format according to the size of the screen*/
-/*when the window's width is below 600px, all boxes stack vertically for better layout*/
-/*I had to adjust both clicks(items) and .box(bacjground box) for it to work*/
-@media (max-width: 600px) {
-        #clicks, .box{
-          flex-direction: column;
-          align-items: center;
-        }
-    }
+  /*adjusting the flexbox format according to the size of the screen*/
+  /*when the window's width is below 600px, all boxes stack vertically for better layout*/
+  /*I had to adjust both clicks(items) and .box(bacjground box) for it to work*/
+  #clicks, .box{
+    flex-direction: column;
+    align-items: center;
+  }
+}
