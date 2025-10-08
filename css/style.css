@@ -37,6 +37,7 @@ body{
 /*modifying the font size for paragraph*/
 p{
     font-size: 24px;
+    margin-top: 20px;
 }
 
 
@@ -45,7 +46,8 @@ ol {
   font-size: 24px;
   list-style-position: inside; /*putting the numbers for thelist inside the container so that it will move along with the text*/
   text-align: center; /* align items in the list to the center, so it does not put the list itself on the center of the page*/
-  margin: 0 auto; /* centers the whole list block, by doing this, you can put the list on the center of the webpage */
+  margin-top: 20px;   
+  margin-bottom: 20px;
   padding: 0; /*getting rid of the spaces inbetween text and text, text and boarder. without this, the list was not on the center.*/
 }
 
@@ -54,14 +56,20 @@ ul{
   font-size: 24px;
   list-style-type: none; /*getting rid of the bullet points*/
   text-align: center; 
-  margin: 0 auto; 
+  margin-top: 20px;   
+  margin-bottom: 20px;
   padding: 0;
 }
 
+/* making space above the sentence */
+h2{
+    margin-top: 30px;
+}
 
 /*modifying the font size for h3*/
 h3{
     font-size: 23px;
+    margin-top: 25px;
 }
 
 /*modifying the font size for h4*/
@@ -92,7 +100,7 @@ h4{
 /*customizing footer text layout for index.html*/
 .footer_text_index{
     font-size: 22px;
-    color: gray;
+    color: rgb(87, 22, 100);
     letter-spacing: 0.003em; /*modifying the space between the letters*/
 }
 
@@ -127,6 +135,11 @@ h4{
   font-size: 20px;
 }
 
+/* sutomize the header for the regional cuisine*/
+#regional_cuisine{
+    font-size: 32px;
+    margin-top: 30px;
+}
 /*using flexbox to align the cliccks horizontally*/
 /*
 #clicks{
@@ -185,8 +198,8 @@ for the webpage smaller than 450px with my PC so I used 600px instead*/
   /*adjusting the h3 text size and margin above and below of it */
   h3{
     font-size: 20px;
-    margin-top: 20px;   /* space above */
-    margin-bottom: 20px; /* space below */
+    margin-top: 20px;   
+    margin-bottom: 20px; 
   }
 
   /*adjusting the h4 text size*/
@@ -196,12 +209,12 @@ for the webpage smaller than 450px with my PC so I used 600px instead*/
 
   /*adjusting the unordered list text size */
   ul{
-    font-size: 18px;
+    font-size: 17px;
   }
 
   /*adjusting the ordered list text size*/
   ol{
-    font-size: 18px;
+    font-size: 17px;
   }
 
   /*adjusting the flexbox format according to the size of the screen*/
@@ -225,4 +238,10 @@ for the webpage smaller than 450px with my PC so I used 600px instead*/
     font-size: 14px;
   }
 
+  /* adjusting for the regional cuisine statement*/
+  #regional_cuisine{
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
 }
