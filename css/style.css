@@ -55,7 +55,6 @@ ol {
 /*modifying the appearance of unordered list*/
 ul{
   font-size: 24px;
-  list-style-type: none; /*getting rid of the bullet points*/
   text-align: center; 
   margin-top: 20px;   
   margin-bottom: 20px;
