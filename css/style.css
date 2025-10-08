@@ -54,7 +54,7 @@ ol {
 
 /*modifying the appearance of unordered list*/
 ul{
-   list-style-type: none;
+  list-style-type: none;
   font-size: 24px;
   text-align: center; 
   margin-top: 20px;   
