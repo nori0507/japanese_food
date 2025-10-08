@@ -44,7 +44,7 @@ p{
 /*modifying the appearance of ordered lists*/
 ol {
   font-size: 24px;
-  list-style-type: none;
+  list-style-type: none !important;
   list-style-position: inside; /*putting the numbers for thelist inside the container so that it will move along with the text*/
   text-align: center; /* align items in the list to the center, so it does not put the list itself on the center of the page*/
   margin-top: 20px;   
@@ -54,7 +54,7 @@ ol {
 
 /*modifying the appearance of unordered list*/
 ul{
-  list-style-type: none;
+  list-style-type: none !important;
   font-size: 24px;
   text-align: center; 
   margin-top: 20px;   
